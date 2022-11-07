@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vcart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <!-- <img src="/Images/Logo2.png" alt="Logo" style="width: 100px; height: 50px;"> -->
+          <!-- <a class="navbar-brand h1" href="#">VCART</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <h1><a class="nav-link active" aria-current="page" href="/home.html">Vcart</a></h1>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Accordian -->
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <b>LOGIN OR SIGNUP</b>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>Enter your email/mobileno : </strong>
+              <input type="email" placeholder="xyz@gmail.com/91+"> <br> <br>
+              <strong>Enter password : </strong>
+              <input type="password" placeholder="password">
+              <br><br>
+              <button type="button" class="btn btn-dark"><a href="/successmsg.html" style="color: white;text-decoration: none;">Continue</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              <b>DELIVERY ADDRESS</b>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+                <div style="display: flex;">
+                    <b>Wanave Chetan Dhanaji</b> <p> &nbsp 104, Baramati-Lakadi-Indapur road, Pune District, Maharashtra-413104</p>
+                </div>
+               
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            <b>PAYMENT OPTIONS</b>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <input type="radio" name="pay"> UPI
+              <div style="margin-left: 5%;">
+                <b>Choose an option: </b> <br>
+                <input type="radio" name="upi"> PhonePe <br>
+                <input type="radio" name="upi"> Your UPI ID
+              </div>
+              <input type="radio" name="pay"> Wallets <br>
+              <input type="radio" name="pay"> <a href="/paymentpage.html" style="color: black;text-decoration: none;">Credit/Debit/ATM Card</a> <br>
+              <input type="radio" name="pay"> Net Banking <br>
+              <input type="radio" name="pay"> EMI (Easy Installments) <br>
+              <input type="radio" name="pay"> Cash on Delivery
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+<footer style="background-color: black;color: white;height: 150px;text-align: center;margin-top: 17%;">
+    <br>
+   <b> Please Reach out to us on <a href="/home.html" style="text-decoration: none;">VCART.com</a></b> <br><br>
+   <a href="#" class="fa fa-facebook" style="text-decoration: none;color:white;"></a> 
+    <a href="#" class="fa fa-twitter" style="text-decoration: none;color:white"></a>
+    <a href="#" class="fa fa-instagram" style="text-decoration: none;color:white"></a>
+    <a href="#" class="fa fa-pinterest" style="text-decoration: none;color:white"></a>
+    <a href="#" class="fa fa-telegram" style="text-decoration: none;color:white"></a>
+    <br><br>
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> @2022 VCART.com All Rights Reserved</p>
+    
+</footer>
+</html>
